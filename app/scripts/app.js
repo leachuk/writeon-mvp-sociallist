@@ -4,7 +4,8 @@ angular.module('sociallistMvp1App', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'loom.api'
 ])
   .config(function ($routeProvider) {
     $routeProvider
