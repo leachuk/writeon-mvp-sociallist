@@ -4,10 +4,9 @@ angular.module('sociallistMvp1App')
   .controller('MainCtrl', function ($scope, $http, loomApi) {
   	$scope.user = {};
   	//*** example config override ***//
-  	// var loomApiConfig = {
-  	// 	port: "9500"
-  	// }
-  	// loomApi.Config.init(loomApiConfig);
+  	// loomApi.init({
+    // 	hostname : "localhost"
+  	// });
 
   	$scope.userSignIn = function(){
 		var data = {};
